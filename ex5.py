@@ -1,18 +1,31 @@
 # -*- coding: utf-8 -*-
-my_name = 'Zed A. Shaw'
-my_age = 35 # not a lie
-my_height = 74 # inches
-my_weight = 180 # lbs
-my_eyes = 'Blue'
-my_teeth = 'White'
-my_hair = 'Brown'
+# 将名字赋值给变量name
+name = 'Zed A. Shaw'
+# 将年龄 35 赋值给变量 age
+age = 35 # not a lie
+# 将 74 赋值给变量 height
+height = 74 * 2.54 # inches 将英寸转化为厘米
+# 将 180 赋值给变量 weight
+weight = 180 * 0.4536 # lbs 将磅转化为千克
+# 将 'Blue' 赋值给变量eyes
+eyes = 'Blue'
+# 将 'teeth' 赋值给变量 teeth
+teeth = 'White'
+# 将 'Broen' 赋值给变量hair
+hair = 'Brown'
 
-print "Let's talk about %s." % my_name
-print "He's %d inches tall." % my_height
-print "He's %s pounds heavy." % my_weight
+# 打印文本，并格式化字符输出变量name
+print "Let's talk about %s." % name
+# 打印文本，并格式化整数输出变量height
+print "He's %d inches tall." % height
+# 打印文本，并格式化字符串输出变量weight
+print "He's %s pounds heavy." % weight
+# 打印文本
 print "Actually that's not too heavy."
-print "He's got %s eyes and %s hair." %  (my_eyes, my_hair)
-print "His teeth are usually %s depending on the coffee." % my_teeth
+# 打印文本，并格式化字符串输出变量eyes，hair
+print "He's got %s eyes and %s hair." %  (eyes, hair)
+# 打印文本，并格式化字符串输出变量teeth
+print "His teeth are usually %s depending on the coffee." % teeth
 
 # this line is tricky, try to get it exactly right
-print "If I add %d, %d, and %d I get %d." %(my_age, my_height, my_weight, my_age + my_height + my_weight)
+print "If I add %d, %d, and %d I get %d." %(age, height, weight, age + height + weight)

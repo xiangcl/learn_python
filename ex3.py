@@ -3,14 +3,14 @@
 print "I will now count my chickens:"
 
 # 打印文本，并计算结果
-print "Hens", 25 + 30 / 6
-print "Roosters", 100 - 25 * 3 % 4
+print "Hens", 25 + 30.0 / 6
+print "Roosters", 100 - 25.0 * 3 % 4
 
 # 打印文本
 print "Now I will count the eggs:"
 
 # 计算结果
-print 3 + 2 + 1 - 5 + 4 % 2 - 1 / 4 + 6
+print 3 + 2 + 1 - 5 + 4.0 % 2 - 1.0 / 4 + 6
 
 # 打印文本
 print "Is it true that 3 + 2 < 5 - 7?"

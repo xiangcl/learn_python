@@ -1,18 +1,18 @@
 # -*- coding: utf-8 -*-
 # 将名字赋值给变量name
-name = 'Zed A. Shaw'
+name = '向常乐'
 # 将年龄 35 赋值给变量 age
-age = 35 # not a lie
+age = 18 # not a lie
 # 将 74 赋值给变量 height
-height = 74 * 2.54 # inches 将英寸转化为厘米
+height = 67 * 2.54 # inches 将英寸转化为厘米
 # 将 180 赋值给变量 weight
-weight = 180 * 0.4536 # lbs 将磅转化为千克
+weight = 132 * 0.4536 # lbs 将磅转化为千克
 # 将 'Blue' 赋值给变量eyes
-eyes = 'Blue'
-# 将 'teeth' 赋值给变量 teeth
+eyes = 'black'
+# 将 'White' 赋值给变量 teeth
 teeth = 'White'
 # 将 'Broen' 赋值给变量hair
-hair = 'Brown'
+hair = 'Black'
 
 # 打印文本，并格式化字符输出变量name
 print "Let's talk about %s." % name

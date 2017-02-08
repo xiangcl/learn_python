@@ -3,7 +3,7 @@
 from sys import argv	# 将sys模块import
 
 script, user_name, age = argv	# 将argv中的东西解包，将所有的参数依次赋予左边的变量名
-prompt = '#  '	# 定义提示符变量
+prompt = "# "	# 定义提示符变量
 
 print "Hi %s, I'm the %s script." % (user_name,  script)		# 打印字符串
 print "你今天年 %d 岁了！" % (int(age))	#添加年龄信息

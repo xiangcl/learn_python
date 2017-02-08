@@ -12,6 +12,7 @@ txt = open(filename)
 # 打印字符串，以及 %r 
 print "Here's your file %r:" % filename
 print txt.read()	# 从打开的文件读取字符串并打印
+txt.close()	# 关闭文件
 
 # 打印字符串
 print "Type the filename again:"
@@ -20,3 +21,4 @@ file_again = raw_input("> ")	# 获取文件名
 txt_again = open(file_again)	# 再次打开文件
 
 print txt_again.read()	# 从打开的文件读取字符串并打印
+txt_again.close()	# 关闭文件

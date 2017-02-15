@@ -41,7 +41,7 @@ print "Florida has: ", cities[states['Florida']]	# 打印cities字典中对应�
 # print every state abberviation
 print '-' * 10
 for state, abbrev in states.items():
-	print "%s is abbreviated %s" % (state, abbrev)
+	print "%s is abbreviated %s" % (state, abbrev)	# 使用items()返回遍历的键值，然后将对应的键值分别赋值state，abbrev循环输出
 
 # print every city in state
 print '-' * 10
@@ -55,7 +55,7 @@ for state, abbrev in states.items():
 
 print '-' * 10
 # safely get a abbreviation by state that mighi not be there
-sate = states.get('Texas')
+state = states.get('Texas')
 
 if not state:
 	print "Sorry, no Texas."

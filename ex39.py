@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 # create a mapping of state to abbreviation
+# 定义一个 states 的字典
 states = {
 	'Oregon': 'OR',
 	'Florida': 'FL',
@@ -10,6 +11,7 @@ states = {
 }
 
 # create a basic set of states and some citres in them
+# 定义一个 cities 的字典
 cities = {
 	'CA': 'San Francisco',
 	'MI': 'Detroit',
@@ -17,23 +19,24 @@ cities = {
 }
 
 # add some more cities
+# 往cities字典中添加元素
 cities['NY'] = 'New York'
 cities['OR'] = 'Portland'
 
 # print our some cities
 print '-' * 10
-print "NY State has: ", cities['NY']
-print "OR State has: ", cities['OR']
+print "NY State has: ", cities['NY']	# 打印cities字典中 NY 元素对应的键值
+print "OR State has: ", cities['OR']	# 打印cities字典中 OR 元素对应的键值
 
 # print some states
 print '-' * 10
-print "Michigan's abbrebiation is: ", states['Michigan']
-print "Florida's abbreviation is: ", states['Florida']
+print "Michigan's abbrebiation is: ", states['Michigan']	# 打印states字典中对应的 Michigan 对应的键值
+print "Florida's abbreviation is: ", states['Florida']	# 打印states字典中对应的 Florida 对应的键值
 
 # do it by using the state then cities dict
 print '-' * 10
-print "Michigan has: ", cities[states['Michigan']]
-print "Florida has: ", cities[states['Florida']]
+print "Michigan has: ", cities[states['Michigan']]	# 打印cities字典中对应的states字典中对应的Michigan键值
+print "Florida has: ", cities[states['Florida']]	# 打印cities字典中对应的states字典中对应的Florida对应的键值
 
 # print every state abberviation
 print '-' * 10

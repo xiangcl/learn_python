@@ -13,6 +13,7 @@ def death():
 	exit(1)
 
 def central_corridor():
+
 	print "The Gothons of Planet Percal #25 have invaded your ship and destroyed"
 	
 	print "your entire crew. Your are the last surviving member and your last"
@@ -88,9 +89,11 @@ def central_corridor():
 	else:
 
 		print "DOWS NOT COMPUTE!"
+
 		return 'central_corridor'
 
 def laser_weapon_armory():
+
 	print "You do a dive roll into the Weapin Armory, crouch and scan the room"
 
 	print "for more Gothons that moght be hiding. It's dead quiet, too quiet."
@@ -116,6 +119,7 @@ def laser_weapon_armory():
 		print "BZZZZEDDD!"
 
 		guesses += 1
+
 		guess =  raw_input("[keypad]> ")
 
 	if guess == code:
